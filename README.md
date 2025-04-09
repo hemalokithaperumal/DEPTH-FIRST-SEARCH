@@ -1,7 +1,7 @@
 # BREADTH-FIRST-SEARCH
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name:HEMA LOKITHA P  </h3>
-<h3>Register Number:212223110014 </h3>
+<h3>Name: HEMA LOKITHA P</h3>
+<h3>Register Number: 21223110014</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -66,8 +66,7 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <li>If Not Visited, add it to the Queue. Else Continue.</li>
 <li>Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.</li>
 
-</ol>
-## PROGRAM:
+## Program
 ```
 from collections import deque
 from collections import defaultdict
@@ -102,7 +101,10 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
+
+</ol>
 <hr>
+
 <h3>Sample Input</h3>
 <hr>
 7 9 <BR>
